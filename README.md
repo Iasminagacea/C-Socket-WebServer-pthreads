@@ -2,6 +2,8 @@
 
 A lightweight, multi-threaded HTTP web server implemented in C using sockets and POSIX threads (pthreads).
 
+Created as a practical project for socket programming and multi-threading concepts.
+
 ## Overview
 
 This is a simple web server that listens for HTTP client requests, parses them, and responds with a dynamically generated HTML confirmation page. The server handles multiple concurrent connections using thread-based concurrency.
@@ -30,7 +32,3 @@ Edit the following constants in `server.c` to customize:
 - `PORT`: Server listening port (default: 8080)
 - `BACKLOG`: Connection queue size (default: 10)
 - `MAX_THREADS`: Maximum concurrent threads (default: 100)
-
-## Author
-
-Created as a practical project for socket programming and multi-threading concepts.
